@@ -1,29 +1,26 @@
-# Blog Project
+# Blog API
 
 ## Overview
 
-The Blog Project is a web application built using Django that allows users to create, read, update, and delete blog posts. The application includes user authentication and role-based access, making it suitable for a multi-user blogging environment.
+The Blog API is a RESTful API built with Django and Django REST Framework, allowing users to manage blog posts. It supports user authentication and provides endpoints for creating, reading, updating, and deleting blog posts.
 
 ## Features
 
-- **User Authentication:** Users can register, log in, and log out.
-- **CRUD Operations:** Users can create, read, update, and delete their blog posts.
-- **Role Management:** Different user roles such as admin, author, and reader.
-- **Pagination:** Blog posts are paginated for better readability.
-- **REST API:** Exposes a RESTful API for blog operations using Django REST Framework.
+- **User Authentication:** Secure user registration and login with JWT (JSON Web Tokens).
+- **CRUD Operations:** Create, read, update, and delete blog posts.
+- **Pagination:** Supports pagination for retrieving lists of blog posts.
+- **Role-Based Access:** Different permissions for authors and admins.
 
 ## Technologies Used
 
 - **Python** - Programming language
 - **Django** - Web framework
+- **Django REST Framework** - For building the API
 - **PostgreSQL** - Database management system
-- **HTML/CSS** - Frontend technologies
-- **JavaScript** - Interactivity
-- **Django REST Framework** - For building RESTful APIs
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Yshirsatth466/dyanasas_blog-app_task.git
    cd blog_project
